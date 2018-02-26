@@ -1,0 +1,455 @@
+<html dir="ltr" lang="en-US"><head>
+    <title>PIKPRINT - Online photo printing service in India</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="generator" content=".Net MVC">
+    <meta name="copyright" content="2018 All Rights Reserved by PIKPRINT.">
+    <meta name="language" content="en-US">
+    <meta name="author" content="PIKPRINT">
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/swiper.css" type="text/css">
+    <link rel="stylesheet" href="css/dark.css" type="text/css">
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <style>
+		h2,h3,h4{
+		font-family:'Raleway', sans-serif;
+		}
+        #frmPersonalDetails .form-group, #frmPersonalDetailsDownload .form-group {
+            margin-bottom: 0;
+            position: relative;
+        }
+
+        ul.parsley-errors-list {
+            position: absolute;
+            top: 5px;
+            right: 10px;
+        }
+        ul.parsley-errors-list li{
+           color:red;
+        }
+		.form-control{
+		width:68% ! important;
+		}
+		.add-left{
+		left: 20px ! important;
+		}
+		.add-left-1{
+		left: 605px ! important;
+		}
+		.add-top{
+		top: 350px ! important;
+		}
+		td, th{
+		padding-right: 90px ! important;
+		padding-bottom: 3px ! important;
+		padding-top: 4px ! important;
+		padding-left: 0px ! important;
+		}
+		td span{
+		margin-left: 5px ! important;
+		}
+		label{
+		margin-left:5px ! important;
+		}
+    </style>
+<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
+
+<body class="stretched device-lg device-touch">
+    <div id="wrapper" class="clearfix" style="animation-duration: 1.5s; opacity: 1;">
+        <header id="header" class="sticky-header">
+            <div id="header-wrap" class="">
+                <div class="container clearfix">
+                    
+                    <div id="logo">
+                        <a href="/" class="standard-logo" data-dark-logo="/ImageUploads/CMSLogos/95_dark.png"><img src="/ImageUploads/CMSLogos/95_dark.png" alt="Logo"></a>
+                        <a href="/" class="retina-logo" data-dark-logo="/ImageUploads/CMSLogos/95_dark.png"><img src="/ImageUploads/CMSLogos/95_dark.png" alt="Logo"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="clear"></div>
+        <section id="content" style="margin-bottom: 0px;">
+
+            <div class="content-wrap" style="padding: 40px 0;">
+
+                <div class="container clearfix">
+                    <div class="heading-block center">
+						<h2><span style="color:5cb85c">Print</span> or <span style="color:337ab7">Download</span></h2>
+                    </div>
+					<h4 class="text-center" style="font-weight:normal; font-size:20px; margin-bottom:40px">You may choose to “Order Prints” to get it delivered at your Doorstep <br>or “Download Photos” in digital format instantly.</h4>
+                    <div class="post-grid grid-container grid-2 clearfix" data-layout="fitRows" style="position: relative; height: 972px;">
+                        <div class="entry clearfix noborder nobottommargin nobottompadding" style="position: absolute; left: 0px; top: 0px;">
+                            <div class="entry-title">
+                                <h3 class="nomargin uppercase" style="font-weight:bold; color:#5cb85c">
+                                    Order Prints
+
+                                </h3>
+                            </div>
+							<div class="entry-title" style="margin-bottom:20px">
+                                <h4 class="nomargin uppercase" style="font-weight:normal; color:#5cb85c">
+                                    Order Summary
+
+                                </h4>
+                            </div>
+                            <div class="entry-content">
+                                <div class="col-md-12">
+                                    <div class="form-horizontal pix-elem-form">
+                                        <div class="form-group">
+                                            <table class="table-bill" cellpadding="10" cellspacing="10" border="1" bordercolor="#cccccc">
+                                                <tbody><tr><td><label>No of Prints </label></td><td><span id="lblTotalQty">1</span></td></tr>
+                                                <tr><td><label>Size </label></td><td><span id="lblSize">5" x 7"</span></td></tr>
+                                                <tr><td><label>Finish </label></td><td><span id="lblFinish">Matte</span></td></tr>
+                                                <tr><td><label>Rate per print </label></td><td class="td-decimal"><label>₹ <span id="lblRate">50.00</span></label></td></tr>
+                                                <tr><td><label>Shipping </label></td><td class="td-decimal"><label>₹ <span id="lblShipping">100.00</span></label></td></tr>
+                                                <tr><td><label style="font-weight:bold;">Total Amount </label></td><td class="td-decimal"><label style="font-weight:bold;">₹ <span id="lblTotalAmount" style="font-size:large;">150.00</span></label></td></tr>
+                                                
+                                            </tbody></table>
+                                            <p>Note: Estimated delivery within 5-7 working days</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    <div class="entry clearfix" style="position: absolute; left: 590px; top: 0px;"> 
+    						<div class="entry-title">
+                                <h3 class="nomargin uppercase" style="font-weight:bold; color:#337ab7">
+                                    Download Photos
+
+                                </h3>
+                            </div>
+							
+                            <div class="entry-title" style="margin-bottom:20px">
+                                <h4 class="nomargin uppercase" style="font-weight:normal; color:#337ab7">
+                                    Order Summary
+                                </h4>
+                            </div>
+                            <div class="entry-content">
+                                <div class="col-md-12">
+                                    <div class="form-horizontal pix-elem-form">
+                                        <div class="form-group">
+                                            <table class="table-bill" cellpadding="10" cellspacing="10" border="1" bordercolor="#cccccc">
+                                                <tbody><tr><td><label>No of photos </label></td><td><span>1</span></td></tr>
+                                                <tr><td><label>Size  </label></td><td><span>2000px</span></td></tr>
+                                                <tr><td><label>Rate per download  </label></td><td class="td-decimal"><label>₹ <span id="lblRate">0.00</span></label></td></tr>
+                                                <tr><td><label style="font-weight:bold;">Total Amount  </label></td><td class="td-decimal"><label style="font-weight:bold;">₹ <span id="lblTotalAmountDownload" style="font-size:large;">0.00</span></label></td></tr>
+                                               
+                                            </tbody></table>
+											<div class="entry-content">
+												<p class="nomargin" style="font-size:20px">
+													Download your photos instantly.
+												</p>
+											</div>
+                                            <p>Note: All download orders are made available for download immediately.In ZIP Formats Only.<br/>
+											If you are downloading images on your phone please install Zip file extractor from Play Store or App Store to view you files.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    <div class="entry clearfix noborder nobottommargin nobottompadding add-left add-top" style="position: absolute; left: 0px; top: 460px;">
+                            <div class="entry-title" style="margin-left:-21px;margin-bottom:10px">
+                                <h4 class="nomargin uppercase" style="font-weight:normal; color:#5cb85c">Delivery Address</h4>
+                            </div>
+                            <div class="entry-content" style="margin-left:-5px">
+                                <div id="q-contact" class="widget quick-contact-widget customjs clearfix">
+                                    <div class="quick-contact-form-result"></div>
+                                    <form id="frmPersonalDetails" method="post" class="form-horizontal" novalidate="" data-parsley-validate="" autocomplete="on" action="/Album/PlaceAlbumOrder">
+                                        <div class="form-process"></div>
+                                        <div class="form-group"><input type="text" class="required form-control" id="txtName" name="Name" placeholder="Name" required=""></div>
+                                        <div class="form-group"><input type="tel" class="required form-control" id="txtPhone" name="Phone" placeholder="Phone" required=""></div>
+                                        <div class="form-group"><input type="email" class="required form-control" id="txtEmail" name="Email" placeholder="Email" required=""></div>
+                                        <div class="form-group"><input type="text" class="required form-control" id="txtAddressLine1" name="txtAddressLine1" placeholder="Address Line 1" required=""></div>
+                                        <div class="form-group"><input type="text" class="form-control" id="txtAddressLine2" name="txtAddressLine2" placeholder="Address Line 2"></div>
+                                        <div class="form-group"><input type="text" class="required form-control" id="txtCity" name="City" placeholder="City" required=""></div>
+                                        <div class="form-group"><input type="text" class="form-control" id="txtProvince" name="Province" placeholder="State" required=""></div>
+                                        <div class="form-group"><input type="text" class="required form-control" id="txtPostcode" name="Postcode" placeholder="Postcode"></div>
+                                        <div class="form-group">
+                                            <div class="checkbox" style="margin-bottom:20px">
+                                                <label>
+                                                    <input type="checkbox" class="required" id="chkTerm" data-parsley-required-message="You must agree to terms of use" data-parsley-multiple="chkTerm"> I agree to<a href="http://pikprint.com/Home/TermsOfUse" target="_blank"> terms of use</a>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group"><button class="btn btn-lg btn-success" type="button" onclick="saveOrder();" id="btn-placeorder">Order Prints</button></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="entry clearfix add-left-1 add-top" style="position: absolute; top: 460px; left: 590px;">
+                            <div class="entry-title" style="margin-left:-15px;margin-bottom:10px;margin-top:50px">
+                                <h4 class="nomargin uppercase" style="font-weight:normal; color:#337ab7">Details</h4>
+                            </div>
+                            <div class="entry-content">
+                                <div id="q-contact" class="widget quick-contact-widget customjs clearfix">
+                                    <div class="quick-contact-form-result"></div>
+                                    <form id="frmPersonalDetailsDownload" method="post" class="form-horizontal" novalidate="" data-parsley-validate="" autocomplete="on" action="/Album/PlaceAlbumOrder">
+                                        <div class="form-process"></div>
+                                        <div class="form-group"><input type="text" class="required form-control" id="txtName" name="Name" placeholder="Name" required=""></div>
+                                        <div class="form-group"><input type="tel" class="required form-control" id="txtPhone" name="Phone" placeholder="Phone" required=""></div>
+                                        <div class="form-group"><input type="email" class="required form-control" id="txtEmail" name="Email" placeholder="Email" required=""></div>
+                                        <div class="form-group">
+                                            <div class="checkbox" style="margin-bottom:20px">
+                                                <label>
+                                                    <input type="checkbox" class="required" id="chkTerm" data-parsley-required-message="You must agree to terms of use" data-parsley-multiple="chkTerm"> I agree to<a href="http://pikprint.com/Home/TermsOfUse" target="_blank"> terms of use</a>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group"><button class="btn btn-lg btn-primary" type="button" onclick="downloadOrder();" id="btn-placeorder">Download Now</button></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+                    
+                    <hr>
+                    
+                </div>
+
+            </div>
+
+        </section>
+        <footer id="footer" class="dark">
+
+            <div class="container">
+
+                <!-- Footer Widgets
+            ============================================= -->
+                <div class="footer-widgets-wrap clearfix">
+                        <div class="col_two_third">
+                            <div class="col_one_third">
+                                <div class="widget clearfix">
+                                    
+                                    <h4></h4>
+                                    <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+                                        <address style="white-space:pre-wrap"></address>
+                                        <abbr title="Phone Number"><strong>Phone:</strong></abbr> <br>
+                                        <abbr title="Email Address"><strong>Email:</strong></abbr> 
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col_one_third">
+                                <div class="widget widget_links clearfix"></div>
+                            </div>
+                            <div class="col_one_third col_last">
+
+
+                            </div>
+                        </div>
+
+                </div><!-- .footer-widgets-wrap end -->
+
+            </div>
+
+            <!-- Copyrights
+        ============================================= -->
+            <div id="copyrights">
+
+                <div class="container clearfix">
+                        <div class="col_half">
+                            <a href="http://pikprint.com">Powered by © PIKPRINT.<br></a>
+                            <div class="copyright-links">
+                                                            </div>
+                        </div>
+                        <div class="col_half col_last tright">
+                            <i class="icon-envelope2"></i>  <span class="middot">·</span> <i class="icon-headphones"></i> 
+                        </div>
+
+                </div>
+
+            </div><!-- #copyrights end -->
+        </footer>
+    </div>
+    <div class="modal fade" tabindex="-1" role="dialog" id="popup-alert">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></span>
+                    <h4 class="modal-title">PIKPRINT</h4>
+                </div>
+                <div class="modal-body">
+                    <p id="popup-alert-message"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    <div id="gotoTop" class="icon-angle-up" style="display: none;"></div>
+    <!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script type="text/javascript" src="js/functions.js"></script>
+    <script>
+        function signOut() {
+            document.getElementById("frmLogOff").submit();
+        }
+        window.alert = function (message) {
+            toastr.error(message);
+        }
+    </script>
+        <script src="/Scripts/parsley.min.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script><div class="razorpay-container" style="z-index: 1000000000; position: fixed; top: 0px; display: none; left: 0px; height: 100%; width: 100%; backface-visibility: hidden; overflow-y: visible;"><style>@keyframes rzp-rot{to{transform: rotate(360deg);}}@-webkit-keyframes rzp-rot{to{-webkit-transform: rotate(360deg);}}</style><div class="razorpay-backdrop" style="min-height: 100%; transition: 0.3s ease-out; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%;"><span style="text-decoration: none; background: rgb(214, 68, 68); border: 1px dashed white; padding: 3px; opacity: 0; transform: rotate(45deg); transition: opacity 0.3s ease-in; font-family: lato, ubuntu, helvetica, sans-serif; color: white; position: absolute; width: 200px; text-align: center; right: -50px; top: 50px;">Test Mode</span></div><iframe style="opacity: 1; height: 100%; position: relative; background: none; display: block; border: 0 none transparent; margin: 0px; padding: 0px;" allowtransparency="true" width="100%" height="100%" src="https://api.razorpay.com/v1/checkout/public" class="razorpay-checkout-frame"></iframe></div><div class="razorpay-container" style="z-index: 1000000000; position: fixed; top: 0px; display: none; left: 0px; height: 100%; width: 100%; backface-visibility: hidden; overflow-y: visible;"><style>@keyframes rzp-rot{to{transform: rotate(360deg);}}@-webkit-keyframes rzp-rot{to{-webkit-transform: rotate(360deg);}}</style><div class="razorpay-backdrop" style="min-height: 100%; transition: 0.3s ease-out; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%;"><span style="text-decoration: none; background: rgb(214, 68, 68); border: 1px dashed white; padding: 3px; opacity: 0; transform: rotate(45deg); transition: opacity 0.3s ease-in; font-family: lato, ubuntu, helvetica, sans-serif; color: white; position: absolute; width: 200px; text-align: center; right: -50px; top: 50px;">Test Mode</span></div><iframe style="opacity: 1; height: 100%; position: relative; background: none; display: block; border: 0 none transparent; margin: 0px; padding: 0px;" allowtransparency="true" width="100%" height="100%" src="https://api.razorpay.com/v1/checkout/public" class="razorpay-checkout-frame"></iframe></div><div class="razorpay-container" style="z-index: 1000000000; position: fixed; top: 0px; display: none; left: 0px; height: 100%; width: 100%; backface-visibility: hidden; overflow-y: visible;"><style>@keyframes rzp-rot{to{transform: rotate(360deg);}}@-webkit-keyframes rzp-rot{to{-webkit-transform: rotate(360deg);}}</style><div class="razorpay-backdrop" style="min-height: 100%; transition: 0.3s ease-out; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%;"><span style="text-decoration: none; background: rgb(214, 68, 68); border: 1px dashed white; padding: 3px; opacity: 0; transform: rotate(45deg); transition: opacity 0.3s ease-in; font-family: lato, ubuntu, helvetica, sans-serif; color: white; position: absolute; width: 200px; text-align: center; right: -50px; top: 50px;">Test Mode</span></div><iframe style="opacity: 1; height: 100%; position: relative; background: none; display: block; border: 0 none transparent; margin: 0px; padding: 0px;" allowtransparency="true" width="100%" height="100%" src="https://api.razorpay.com/v1/checkout/public" class="razorpay-checkout-frame"></iframe></div><div class="razorpay-container" style="z-index: 1000000000; position: fixed; top: 0px; display: none; left: 0px; height: 100%; width: 100%; backface-visibility: hidden; overflow-y: visible;"><style>@keyframes rzp-rot{to{transform: rotate(360deg);}}@-webkit-keyframes rzp-rot{to{-webkit-transform: rotate(360deg);}}</style><div class="razorpay-backdrop" style="min-height: 100%; transition: 0.3s ease-out; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%;"><span style="text-decoration: none; background: rgb(214, 68, 68); border: 1px dashed white; padding: 3px; opacity: 0; transform: rotate(45deg); transition: opacity 0.3s ease-in; font-family: lato, ubuntu, helvetica, sans-serif; color: white; position: absolute; width: 200px; text-align: center; right: -50px; top: 50px;">Test Mode</span></div><iframe style="opacity: 1; height: 100%; position: relative; background: none; display: block; border: 0 none transparent; margin: 0px; padding: 0px;" allowtransparency="true" width="100%" height="100%" src="https://api.razorpay.com/v1/checkout/public" class="razorpay-checkout-frame"></iframe></div>
+    <script>
+        $(document).ready(function () {
+            $("#frmPersonalDetails").submit(function (e) {
+                e.preventDefault();
+                if ($("#frmPersonalDetails").parsley("isValid")) {
+                    payNow();
+                }
+            });
+            $("#frmPersonalDetailsDownload").submit(function (e) {
+                e.preventDefault();
+                if ($("#frmPersonalDetailsDownload").parsley("isValid")) {
+                    payNowForDownload();
+                }
+            });
+        });
+        function saveOrder() {
+            $("#frmPersonalDetails").submit();
+        }
+        function downloadOrder() {
+            $("#frmPersonalDetailsDownload").submit();
+        }
+        function payNow() {
+            var options = {
+                "key": "rzp_live_Bh2Jf9iFhUNEFf",
+                "amount": parseInt(Number($("#lblTotalAmount").html()) * 100), // * 100 for Paise
+                "name": "PikPrint",
+                "description": "Photo Prints",
+                //"image": "images/Home/Xatalog_RazorPay.png",
+                "handler": function (response) {
+                    $.ajax({
+                        url: '/Album/PlaceAlbumOrder',
+                        type: 'POST',
+                        contentType: 'application/json',
+                        async: false,
+                        data: JSON.stringify({
+                            Name: $("#frmPersonalDetails #txtName").val(),
+                            Phone: $("#frmPersonalDetails #txtPhone").val(),
+                            Email: $("#frmPersonalDetails #txtEmail").val(),
+                            AddressLine1: $("#txtAddressLine1").val(),
+                            AddressLine2: $("#txtAddressLine2").val(),
+                            City: $("#txtCity").val(),
+                            Province: $("#txtProvince").val(),
+                            Postcode: $("#txtPostcode").val(),
+                            Razorpayref: response.razorpay_payment_id,
+                        }),
+                        success: function (returnData) {
+                            if (returnData.Result == "OK") {
+                                //alert("Payment successful. Reference code " + response.razorpay_payment_id);
+                                $("#popup-alert-message").html("Thank you for placing order with us. Your payment reference is " + response.razorpay_payment_id);
+                                $("#popup-alert").modal();
+                                $('#popup-alert').on('hidden.bs.modal', function () {
+                                    location.href = "/";
+                                });
+                            }
+                            else alert(returnData.Message);
+                        },
+                        error: function (xhr, textStatus, errorThrown) {
+                            alert('Oops! Something went wrong...');
+                        }
+                    });
+                },
+                "prefill": {
+                    "name": $("#frmPersonalDetails #txtName").val(),
+                    "email": $("#frmPersonalDetails #txtEmail").val(),
+                    "contact": $("#frmPersonalDetails #txtPhone").val()
+                },
+                "notes": {
+                    "address": $("#txtAddressLine1").val() + ", " + $("#txtAddressLine2").val()
+                },
+                "theme": {
+                    "color": "rgba(65, 186, 97, 1)"
+                }
+            };
+            var rzp1 = new Razorpay(options);
+            rzp1.open();
+        }
+
+        function payNowForDownload() {
+            var amt = Number($("#lblTotalAmountDownload").html());
+            if (amt < 1)
+            {
+                saveDownloadOrder("fD");
+            }
+            else
+            { //////Go for payment
+                var options = {
+                    "key": "rzp_live_Bh2Jf9iFhUNEFf",
+                    "amount": parseInt(amt * 100), // * 100 for Paise
+                    "name": "PikPrint",
+                    "description": "Photo Downloads",
+                    //"image": "images/Home/Xatalog_RazorPay.png",
+                    "handler": function (response) {
+                        saveDownloadOrder(response.razorpay_payment_id);
+                    },
+                    "prefill": {
+                        "name": $("#frmPersonalDetailsDownload #txtName").val(),
+                        "email": $("#frmPersonalDetailsDownload #txtEmail").val(),
+                        "contact": $("#frmPersonalDetailsDownload #txtPhone").val()
+                    },
+                    "notes": {
+                        "address": $("#txtAddressLine1").val() + ", " + $("#txtAddressLine2").val()
+                    },
+                    "theme": {
+                        "color": "rgba(65, 186, 97, 1)"
+                    }
+                };
+                var rzp1 = new Razorpay(options);
+                rzp1.open();
+            }
+
+        }
+        function saveDownloadOrder(razorpay_payment_id) {
+            $.ajax({
+                url: '/Album/PlaceAlbumOrderForDownload',
+                type: 'POST',
+                contentType: 'application/json',
+                async: false,
+                data: JSON.stringify({
+                    Name: $("#frmPersonalDetailsDownload #txtName").val(),
+                    Phone: $("#frmPersonalDetailsDownload #txtPhone").val(),
+                    Email: $("#frmPersonalDetailsDownload #txtEmail").val(),
+                    Razorpayref: razorpay_payment_id,
+                }),
+                success: function (returnData) {
+                    if (returnData.Result == "OK") {
+                        //alert("Payment successful. Reference code " + response.razorpay_payment_id);
+                        $("#popup-alert-message").html("Thank you for placing order with us. Your payment reference is " + returnData.PaymentRefCode);
+                        $("#popup-alert").modal();
+                        $('#popup-alert').on('hidden.bs.modal', function () {
+                            location.href = "/Album/DownloadOrder?r=" + returnData.PaymentRefCode;
+                        });
+                    }
+                    else alert(returnData.Message);
+                },
+                error: function (xhr, textStatus, errorThrown) {
+                    alert('Oops! Something went wrong...');
+                }
+            });
+        }
+    </script>
+
+</body></html>
